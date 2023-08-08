@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;500&family=Roboto:ital@1&display=swap');
+
+body{
+font-family: "Noto Serif", "Arial", sans-serif;
+background-image: url('fon6.jpeg');
+ width: 100%;
+}
+
+h1 {
+ font-size: 120px;
+ color: #360916;
+ text-align: center;
+ }
+
+.text1 {
+font-size: 30px;
+ color: #360916;
+ text-align: center;
+}
+
+container {
+margin: 0 100px;
+}
+
+table {
+bacground-image
+}
+
+button {
+width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    font-family: "Noto Serif", "Arial", sans-serif;
+    font-size: 13px;
+    color: #7a3840;
+    background-color: #faf6d4;
+}
+
+button:hover {
+background: #875b63;
+}
+
+img {
+width: 550px;
+border-radius: 15px;
+}
+
+.back {
+margin: 0 auto;
+display: block;
+width: 400px;
+    height: 60px;
+    border-radius: 30px;
+    font-family: "Noto Serif", "Arial", sans-serif;
+    font-size: 26px;
+    color: #7a3840;
+    background-color: #faf6d4;
+}
+.table1 {
+font-family: "Noto Serif", "Arial", sans-serif;
+color: #7a3840;
+background-color: #faf6d4;
+margin: 0 auto;
+display: block;
+width: 550px;
+}

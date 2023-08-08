@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300;500&family=Roboto:ital@1&display=swap');
+
+body{
+font-family: "Noto Serif", "Arial", sans-serif;
+background-image: url('fon6.jpeg');
+ width: 100%;
+}
+ h1 {
+ font-size: 72px;
+ color: white;
+ text-align: center;
+ }
+
+ h2 {
+ font-size: 36px;
+  color: #7a3840;
+  text-shadow: 3px -8px 7px #ad7888;
+  text-align: center;
+ }
+
+h1 {
+background-image:url('3.jpeg');
+background-position: center center;
+ width: 100%;
+ height: 450px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+.text1 {
+font-size: 24px;
+ color: #7a3840;
+ text-align: center;
+}
+
+.forma1 {
+color: #7a3840;
+font-size: 21px;
+text-decoration: underline;
+text-shadow: 3px -8px 7px #ad7888;
+}
+
+form {
+color: #7a3840;
+}
+
+.blocks {
+display: flex;
+justify-content: flex-end;
+margin: 0 200px;
+}
+
+container {
+margin: 0 30px;
+}
+
+button {
+width: 300px;
+    height: 90px;
+    border-radius: 30px;
+    font-family: "Noto Serif", "Arial", sans-serif;
+    font-size: 24px;
+    color: #7a3840;
+    background-color: #faf6d4;
+}
+
+button:hover {
+background: #875b63;
+}
+
+button {
+margin: 0 auto;
+display: block;
+}
+
+select {
+width: 150px;
+height: 50px;
+font-family: "Noto Serif", "Arial", sans-serif;
+font-size: 18px;
+color: #7a3840;
+background-color: #faf6d4;
+border-radius: 15px;
+}
+
+.name {
+width: 250px;
+height: 30px;
+}
+
+.name2 {
+width: 400px;
+height: 100px;
+}
+.name3 {
+width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: "Noto Serif", "Arial", sans-serif;
+    font-size: 15px;
+    color: #570710;
+    background-color: #faf6d4;
+}
+.name3:hover {
+background: #faf6d4;
+}
+.text2 {
+font-size: 25px;
+ color: #faf6d4;
+ text-align: center;
+}
+
+.content {
+margin: 30px;
+height: 100px;
+}
+
+.forma2 {
+background-image:url('10.jpeg');
+ width: 100%;
+ height: 470px;
+    margin: 0;
+object-fit: cover;
+background-position: center center;
+background-size: 100%;
+}
+
+.forma3 {
+display: flex;
+justify-content: flex-end;
+margin: 0 200px;
+}

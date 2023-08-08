@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet Cake</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="content">
+    <div>
+        <h1> Кондитерская Sweet Cake <br/> Готовим Ваши любимые сладости</h1>
+    </div>
+    <br/>
+    <h2>Команда Sweet Cake приветствует Вас</h2>
+    <h2>Вы можете заказать любимые сладости из готового меню, а также обcудить свой индивидуальный заказ с нашим
+        оператором.
+        <br/>8 800 263 63 20</h2>
+    <br/>
+    <br/>
+    <p class="text1"> Чтобы обсудить индивидуальный заказ, заполните форму, и наш оператор свяжется с Вами в
+        ближайшее время </p>
+    <div class="blocks">
+        <container>
+            <p class="forma1">Что будет в Вашем заказе?</p>
+            <form action="input10.php" method="post">
+               <lable><input type="checkbox" name="cake" value="rad1">Торт</lable><br/>
+                <lable><input type="checkbox" name="cake" value="rad2"> Бенто</lable><br/>
+                <lable><input type="checkbox" name="cake" value="rad3"> Капкейки</lable><br/>
+                <lable><input type="checkbox" name="cake" value="rad4"> Чизкейк</lable><br/>
+                <lable><input type="checkbox" name="cake" value="rad5"> Другое</lable><br/>
+            </form>
+        </container>
+        <br/>
+        <container>
+            <p class="forma1">Уже опредились с дизайном оформления <br/>или потребуется наша помощь?</p>
+            <form action="input10.php" method="post">
+                <lable><input type="radio" name="cake" value="rad1">Точно знаю, что хочу</lable><br/>
+                <lable><input type="radio" name="cake" value="rad2">Нужна консультация</lable><br/>
+            </form>
+        </container>
+        <br/>
+        <div>
+            <container>
+                <p class="forma1">Самовывоз или доставка заказа?</p>
+                <select>
+                    <option>Доставка</option>
+                    <option>Самовывоз</option>
+                </select>
+            </container>
+        </div>
+    </div>
+    <br/>
+    <div class="forma3">
+        <form action="handler.php" method="post">
+            <p><strong>Введите Ваш номер телефона</strong></p>
+            <p><input class="name" maxlength="25" size="40" placeholder="+7 (9..) "></p>
+        </form>
+    </div>
+    <br/>
+    <button type="button1">Отправить</button>
+    <br/>
+    <br/>
+    <p></p>
+    <button type="button"><a href="index1.html">Меню Sweet Cake</a></button>
+    <div>
+        <br/>
+        <br/>
+        <div class="forma2">
+            <form>
+            <form action="handler.php" method="post">
+                <p><strong>Оставьте отзыв или пожелание</strong></p>
+                <p><input class="name" maxlength="25" size="40" placeholder="Имя"></p>
+                <p><textarea class="name2" name="comment" placeholder="Отзывы и пожелания"></textarea></p>
+                <p><input class="name3" type="submit"></p>
+            </form>
+            <br/>
+            <div>
+                <p class="text2">Стоимость доставки по городу 250 руб. <br/>При заказе на сумму от 1000 руб доставка
+                    бесплатно.
+                    <br/>Самовывоз готового заказа по адресу Красный проспект 182</p>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
